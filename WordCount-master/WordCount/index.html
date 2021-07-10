@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body id='bod'>
+
+    <!-- NAVBAR -->
+
+    <nav id='navbar' class='navbar navbar-expand-sm'>
+      <div class="container">
+
+        <a href="index.html" class='text-white navbar-brand'>Welcome to Word Counter</a>
+
+        <button class='navbar-toggler' data-toggle='collapse' data-target='#navbarCollapse'>
+          <span class='navbar-toggler-icon'></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class='nav-item'>
+              <a href="#home" class='text-white nav-link'>Home</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <header id='home-section'>
+      <div class="dark-overlay">
+        <div class="home-inner py-3">
+          <h2 class="display-4 pb-3 text-center text-white">Word Counter to Make Your Job Easy !</h2>
+          <div id='card' class="card container bg-primary text-center card-form">
+            <p></p>
+
+                <h3 class='pb-2 pr-2 text-right lead'>The limit of the total number of words has been set to 250</h3>
+
+                  <textarea id='text' rows="16" cols='40' class='pt-3 pl-3' placeholder="Enter your text here..."></textarea>
+
+
+                <div class="py-3 output row">
+                  <b class='pl-4 pr-6'>Characters: <span id="charCount">0</span></b>
+                  <p></p>
+                  <b class='px-4'>  Words: <span id="wordCount">0</span></b>
+                  <p></p>
+                  <b class='px-3'>  Remaing Words: <span id="rem">250</span></b>
+                </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+        <footer id='main-footer'>
+          <!-- <div class="container"> -->
+          <div class="row">
+            <div class="col text-center text-muted py-4">
+              <p>Copyright &copy; 2020 WordC</p>
+            </div>
+          </div>
+          <!-- </div> -->
+        </footer>
+
+
+
+
+  <script src="test.js" charset="utf-8"></script>
+
+  </body>
+</html>

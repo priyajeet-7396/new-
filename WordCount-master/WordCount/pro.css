@@ -1,0 +1,43 @@
+#navbar
+{
+  background: black;
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  color: white;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#bod
+{
+  background:#292727;
+}
+
+#home-section{
+  background: url(https://previews.123rf.com/images/kannaa123rf/kannaa123rf1605/kannaa123rf160500075/56653823-random-letters-seamless-pattern-abstract-background-with-alphabet-creative-wallpaper-design-in-offic.jpg);
+  background-size: cover;
+
+}
+
+.dark-overlay
+{
+  background: rgba(0,0,0,0.9);
+}
+
+#main-footer
+{
+  background: black;
+}
+#card
+{
+  width:850px;
+  border: 2px solid black;
+}
+#text
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
